@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- TABLE OF CONTENTS -->
 <h2>
     <details open="open">
@@ -321,3 +322,6 @@ npm run lighthouse
 [detailed-report-screenshot]: ReadMeImages/DetailedReport.PNG
 [failure-report-screenshot]: ReadMeImages/FailureReport.PNG
 [sonar-report-screenshot]: ReadMeImages/SonarReport.PNG
+=======
+# playwright-typescript-playwright-test
+>>>>>>> d27694ab0ce41a2afaf64ed3349fa087f6ff433d
