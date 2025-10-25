@@ -6,10 +6,12 @@ import { WidgetsPage } from '@pages/WidgetsPage';
 import { InteractionsPage } from '@pages/InteractionsPage';
 import { WebActions } from '@lib/WebActions';
 import AxeBuilder from '@axe-core/playwright';
+import { SwagLoginPage } from '@pages/SwagLoginPage';
 
 const test = baseTest.extend<{
     webActions: WebActions;
     loginPage: LoginPage;
+    swagLoginPage: SwagLoginPage;
     elementsPage: ElementsPage;
     alertsFrameWindowsPage: AlertsFrameWindowsPage;
     widgetsPage: WidgetsPage;
@@ -22,6 +24,9 @@ const test = baseTest.extend<{
     },
     loginPage: async ({ page, context }, use) => {
         await use(new LoginPage(page, context));
+    },
+    swagLoginPage: async ({ page, context }, use) => {
+        await use(new SwagLoginPage(page, context));
     },
     elementsPage: async ({ page, context }, use) => {
         await use(new ElementsPage(page, context));

@@ -64,7 +64,8 @@ const config: PlaywrightTestConfig = {
 
         //Slows down execution by ms
         launchOptions: {
-          slowMo: 0
+          slowMo: 0,
+          args: ['--headless=new']
         }
       },
     },
