@@ -1,10 +1,10 @@
 export const testConfig = {
-    qa: `https://demoqa.com`,
+    qa: `https://www.saucedemo.com/`,
     dev: ``,
     qaApi: `https://reqres.in`,
     devApi: ``,
-    username: `demouat@gmail.com`,
-    password: `U2FsdGVkX18/eMdsOJpvI4hJZ/w7hNgwSRFaDvAcZx4=`,
+    username: `standard_user`,
+    password: `secret_sauce`,
     waitForElement: 120000,
     dbUsername: ``,
     dbPassword: ``,

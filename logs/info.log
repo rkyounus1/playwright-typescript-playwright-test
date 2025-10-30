@@ -32,3 +32,17 @@
 {"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
 {"level":"info","message":"Test Case Started : Verify Widgets Page"}
 {"level":"info","message":"Test Case Completed : Verify Widgets Page Status : passed"}
+{"level":"info","message":"Test Case Started : verify swaglab login and logout"}
+{"level":"info","message":"Test Case Completed : verify swaglab login and logout Status : failed"}
+{"level":"info","message":"Test Case Started : verify swaglab login and logout"}
+{"level":"info","message":"Test Case Completed : verify swaglab login and logout Status : failed"}
+{"level":"info","message":"Test Case Started : verify swaglab login and logout"}
+{"level":"info","message":"Test Case Completed : verify swaglab login and logout Status : failed"}
+{"level":"info","message":"Test Case Started : verify swaglab login and logout"}
+{"level":"info","message":"Test Case Completed : verify swaglab login and logout Status : failed"}
+{"level":"info","message":"Test Case Started : verify swaglab login and logout"}
+{"level":"info","message":"Executing Step : Navigate to Sauce Demo"}
+{"level":"info","message":"Executing Step : login using valid credentials"}
+{"level":"info","message":"Executing Step : verify product page"}
+{"level":"info","message":"Executing Step : logout and verify user is redirected to login"}
+{"level":"info","message":"Test Case Completed : verify swaglab login and logout Status : passed"}
