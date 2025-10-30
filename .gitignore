@@ -35,3 +35,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 >>>>>>> d27694ab0ce41a2afaf64ed3349fa087f6ff433d
+"html-report/" 
+"logs/" 
