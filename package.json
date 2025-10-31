@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
+<<<<<<< HEAD
     "test:single": "npx playwright test swaglogin.test.ts --project=Chrome",
+=======
+    "test:single": "npx playwright test SwagLogin.test.ts --project=Chrome",
+>>>>>>> 715b1ce7cf17651696e2ffcc6dcc467058747ff3
     "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
     "test:serial": "npx playwright test --grep @Smoke --workers=1 --project=Chrome",
     "test:ui": "npx playwright test --grep @Smoke --ui",
@@ -26,7 +30,11 @@
   "license": "MIT",
   "dependencies": {
     "@axe-core/playwright": "^4.10.0",
+<<<<<<< HEAD
     "@playwright/test": "^1.56.1",
+=======
+    "@playwright/test": "^1.47.2",
+>>>>>>> 715b1ce7cf17651696e2ffcc6dcc467058747ff3
     "@types/crypto-js": "^4.2.2",
     "@typescript-eslint/eslint-plugin": "^8.3.0",
     "@typescript-eslint/parser": "^8.3.0",

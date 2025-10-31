@@ -41,7 +41,11 @@ jobs:
 
       # Step to run tests with qa as environment variable similarly we can define qa|dev|qaApi|devApi
       - name: Run tests
+<<<<<<< HEAD
         run: npm run test:serial
+=======
+        run: npx playwright test tests/functional/SwagLogin.test.ts --project=Chrome
+>>>>>>> 715b1ce7cf17651696e2ffcc6dcc467058747ff3
         env:
           npm_config_ENV: "qa"
 
@@ -71,7 +75,11 @@ jobs:
 
       # Step to upload artifact
       - name: Upload artifact
+<<<<<<< HEAD
         uses: actions/upload-artifact@v2
+=======
+        uses: actions/upload-artifact@v4
+>>>>>>> 715b1ce7cf17651696e2ffcc6dcc467058747ff3
         with:
           name: html-report
           path: html-report.zip
