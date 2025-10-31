@@ -10,7 +10,9 @@ export class SwagLoginPage {
     readonly USERNAME_EDITBOX: Locator;
     readonly PASSWORD_EDITBOX: Locator;
     readonly LOGIN_BUTTON: Locator;
-    readonly BOOKS_SEARCH_BOX: Locator;
+    readonly error_message: Locator;
+    readonly Products_list: Locator;
+    
 
     constructor(page: Page, context: BrowserContext) {
         this.page = page;
@@ -19,7 +21,8 @@ export class SwagLoginPage {
         this.USERNAME_EDITBOX = page.locator('#user-name');
         this.PASSWORD_EDITBOX = page.locator('#password');
         this.LOGIN_BUTTON = page.locator('#login-button');
-        this.BOOKS_SEARCH_BOX = page.locator('.title');
+        this.error_message = page.locator('.error-message-container.error')
+        this.Products_list = page.locator('.title');
     }
 
     async navigateToURL(): Promise<void> {
@@ -36,10 +39,14 @@ export class SwagLoginPage {
         await this.LOGIN_BUTTON.click();
         await this.page.waitForURL('**/inventory.html', { timeout: 15000 });
     }
+    async verifyErrorMessage(expectedMessage: string): Promise<void> {
+    await this.error_message.waitFor({ state: 'visible', timeout: 5000 });
+    await expect(this.error_message).toHaveText(expectedMessage);
+    }
 
     async verifyProfilePage(): Promise<void> {
         await this.page.waitForSelector('.title', { state: 'visible', timeout: 15000 });
-        await expect(this.BOOKS_SEARCH_BOX).toHaveText('Products');
+        await expect(this.Products_list).toHaveText('Products');
     }
     
 }
