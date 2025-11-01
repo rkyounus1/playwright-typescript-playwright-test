@@ -10,7 +10,7 @@ export class SwagLoginPage {
     readonly USERNAME_EDITBOX: Locator;
     readonly PASSWORD_EDITBOX: Locator;
     readonly LOGIN_BUTTON: Locator;
-    readonly error_message: Locator;
+    readonly ERROR_MESSAGE: Locator;
     readonly Products_list: Locator;
     
 
@@ -21,7 +21,7 @@ export class SwagLoginPage {
         this.USERNAME_EDITBOX = page.locator('#user-name');
         this.PASSWORD_EDITBOX = page.locator('#password');
         this.LOGIN_BUTTON = page.locator('#login-button');
-        this.error_message = page.locator('.error-message-container.error')
+        this.ERROR_MESSAGE = page.locator('.error-message-container.error')
         this.Products_list = page.locator('.title');
     }
 
@@ -40,8 +40,8 @@ export class SwagLoginPage {
         await this.page.waitForURL('**/inventory.html', { timeout: 15000 });
     }
     async verifyErrorMessage(expectedMessage: string): Promise<void> {
-    await this.error_message.waitFor({ state: 'visible', timeout: 5000 });
-    await expect(this.error_message).toHaveText(expectedMessage);
+    await this.ERROR_MESSAGE.waitFor({ state: 'visible', timeout: 5000 });
+    await expect(this.ERROR_MESSAGE).toHaveText(expectedMessage);
     }
 
     async verifyProfilePage(): Promise<void> {
