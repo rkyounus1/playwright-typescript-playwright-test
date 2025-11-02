@@ -121,7 +121,7 @@ await test.step('logout and verify user is redirected to login', async()=>{
 
     await expect(swagLoginPage.page).toHaveURL('https://www.saucedemo.com/')
 
-    await expect(swagLoginPage.page.locator('#login-button')).toBeVisible()
+    await expect(swagLoginPage.page.locator('')).toBeVisible()
 })
 
 
