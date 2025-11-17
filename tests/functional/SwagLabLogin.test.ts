@@ -1,49 +1,33 @@
 import test from '@lib/BaseTest';
 import { expect } from '@playwright/test';
-// import { SwagLoginPage } from '@pages/SwagLoginPge';
 
-// test(`Verify Sauce Labs Login`, { tag: '@Smoke'}, async ({ swagLoginPage }) => {
-//     await test.step(`Navigate to Application`, async () => {
-//         await swagLoginPage.navigateToURL();
-//     });
-//     await test.step(`Login to Sauce Demo application`, async () => {
-//         await swagLoginPage.loginToApplication();
-//     });
-//     await test.step(`Verify User is logged in and navigated to Products page`, async () => {
-//         await swagLoginPage.verifyProfilePage();
-//     });
-// });
 
-// valid pass n login
 
-test('verify swaglab login',async({swagLoginPage })=> {
-await test.step('navigate to source demo', async()=>{
-    await swagLoginPage.navigateToURL()
+test(`Verify Sauce Labs Login`, { tag: '@Smoke' }, async ({ swagLoginPage }) => {
 
-})
+  await test.step(`Navigate to Application`, async () => {
+    await swagLoginPage.navigateToURL();
+  });
 
-await test.step('login using valid credentails',async()=>{
-await swagLoginPage.loginToApplication();
+  await test.step(`Login using valid credentials`, async () => {
+    await swagLoginPage.loginToApplication();
+  });
 
-})
- 
-await test.step('varify user redirected', async()=>{
- await swagLoginPage.verifyProfilePage()
-
-})
+  await test.step(`Verify user is redirected to Products page`, async () => {
+    await swagLoginPage.verifyProfilePage();
+  });
 
 });
 
 
-//login with invalid 
 
-test('verify Swag Labs invalid Login', async ({ swagLoginPage }) => {
+test('Verify Swag Labs Invalid Login', async ({ swagLoginPage }) => {
 
   await test.step('Navigate to Sauce Demo site', async () => {
     await swagLoginPage.navigateToURL();
   });
 
-  await test.step('attempt login with invalid credentials', async () => {
+  await test.step('Attempt login with invalid credentials', async () => {
     await swagLoginPage.USERNAME_EDITBOX.fill('invalid_user');
     await swagLoginPage.PASSWORD_EDITBOX.fill('wrong_password');
     await swagLoginPage.LOGIN_BUTTON.click();
@@ -56,9 +40,8 @@ test('verify Swag Labs invalid Login', async ({ swagLoginPage }) => {
   });
 
 });
-  
 
-// invalid password and emptyfileds
+
 
 test('Verify error message for empty username and password fields', async ({ swagLoginPage }) => {
 
@@ -89,40 +72,33 @@ test('Verify error message for empty username and password fields', async ({ swa
 
 });
 
-// After logout, user should be redirected back to the login page
 
 
 
-test.only('verify swaglab login and logout', async({swagLoginPage})=>{
+test.only('Verify login and logout', async ({ swagLoginPage }) => {
 
+  await test.step('Navigate to Sauce Demo', async () => {
+    await swagLoginPage.navigateToURL();
+  });
 
-    await test.step('Navigate to Sauce Demo', async()=>{
+  await test.step('Login using valid credentials', async () => {
+    await swagLoginPage.loginToApplication();
+  });
 
-        await swagLoginPage.navigateToURL();
-  
-    })
-   
-await test.step('login using valid credentials', async()=>{
+  await test.step('Verify product page', async () => {
+    await swagLoginPage.verifyProfilePage();
+  });
 
-    await swagLoginPage.loginToApplication()
-})
- await test.step('verify product page', async()=>{
-await swagLoginPage.verifyProfilePage()
+  await test.step('Logout and verify user is redirected to login page', async () => {
 
- })
+    await swagLoginPage.page.locator('#react-burger-menu-btn').click();
+    await swagLoginPage.page.locator('#logout_sidebar_link').click();
 
-await test.step('logout and verify user is redirected to login', async()=>{
+    // Validate we are back on login screen
+    await expect(swagLoginPage.page).toHaveURL('https://www.saucedemo.com/');
 
-    await swagLoginPage.page.locator('#react-burger-menu-btn').click()
+    // Verify Login button is visible again
+    await expect(swagLoginPage.page.locator('[data-test="login-button"]')).toBeVisible();
+  });
 
-    await swagLoginPage.page.locator('#logout_sidebar_link').click()
-
-
-
-    await expect(swagLoginPage.page).toHaveURL('https://www.saucedemo.com/')
-
-    await expect(swagLoginPage.page.locator('')).toBeVisible()
-})
-
-
-})
+});
