@@ -7,6 +7,7 @@ import { InteractionsPage } from '@pages/InteractionsPage';
 import { WebActions } from '@lib/WebActions';
 import AxeBuilder from '@axe-core/playwright';
 import { SwagLoginPage } from '@pages/SwagLoginPage';
+import { SwagPage } from 'pageFactory/SwagPage';
 
 const test = baseTest.extend<{
     webActions: WebActions;
@@ -18,6 +19,7 @@ const test = baseTest.extend<{
     interactionsPage: InteractionsPage;
     makeAxeBuilder: AxeBuilder;
     testInfo: TestInfo;
+    swagPage: SwagPage;
 }>({
     webActions: async ({ page, context }, use) => {
         await use(new WebActions(page, context));
@@ -39,6 +41,9 @@ const test = baseTest.extend<{
     },
     interactionsPage: async ({ page, context }, use) => {
         await use(new InteractionsPage(page, context));
+    },
+    swagPage:async ({ page }, use) => {
+        await use(new SwagPage(page));
     },
     makeAxeBuilder: async ({ page }, use) => {
         await use(new AxeBuilder({ page })
