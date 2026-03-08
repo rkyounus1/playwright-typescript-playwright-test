@@ -48,5 +48,9 @@ export class SwagLoginPage {
         await this.page.waitForSelector('.title', { state: 'visible', timeout: 15000 });
         await expect(this.Products_list).toHaveText('Products');
     }
+    async validateLoginPage(): Promise<void> {
+        await expect(this.page.getByText('Login')).toBeVisible();
+   await expect(this.page.getByText('Swag Labs')).toBeVisible(); 
+    }
     
 }
