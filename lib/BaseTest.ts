@@ -7,7 +7,7 @@ import { InteractionsPage } from '@pages/InteractionsPage';
 import { WebActions } from '@lib/WebActions';
 import AxeBuilder from '@axe-core/playwright';
 import { SwagLoginPage } from '@pages/SwagLoginPage';
-import { SwagPage } from 'pageFactory/SwagPage';
+import { SwagPage } from '@pages/SwagPage';
 
 const test = baseTest.extend<{
     webActions: WebActions;
