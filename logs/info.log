@@ -35,3 +35,389 @@
 {"level":"error","message":"Error: Cannot find module '../pages/loginPage'\nRequire stack:\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\tests\\functional\\login.spec.ts\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\processHost.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\loaderHost.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\loadUtils.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\reporters.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\runner.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\program.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\@playwright\\test\\cli.js"}
 {"level":"error","message":"Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."}
 {"level":"error","message":"Error: Cannot find module '../pages/loginPage'\nRequire stack:\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\tests\\functional\\login.spec.ts\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\processHost.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\loaderHost.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\loadUtils.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\reporters.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\runner\\runner.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\playwright\\lib\\program.js\n- C:\\Users\\Admin\\Desktop\\playwright swaglabs\\playwright-typescript-playwright-test\\node_modules\\@playwright\\test\\cli.js"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : passed"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : failed"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Click on Book Store Application Icon"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : failed"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : failed"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : failed"}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : failed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : failed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : failed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : failed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : failed"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : failed"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : failed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : failed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : failed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : failed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Started : getUsers"}
+{"level":"info","message":"Test Case Started : Verify Page Accessibility"}
+{"level":"info","message":"Test Case Completed : getUsers Status : failed"}
+{"level":"info","message":"Test Case Started : postUsers"}
+{"level":"info","message":"Test Case Completed : postUsers Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Page Accessibility Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Started : Connect to Postgres DB"}
+{"level":"info","message":"Test Case Completed : Connect to Postgres DB Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Generate and verify HAR file for Login Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Generate and verify HAR file for Login Page. Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Started : Swag Labs Login Test"}
+{"level":"info","message":"Test Case Completed : Swag Labs Login Test Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : passed"}
+{"level":"info","message":"Test Case Started : Sauce succesfull login"}
+{"level":"info","message":"Test Case Completed : Sauce succesfull login Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty username and password"}
+{"level":"info","message":"Test Case Completed : Login with empty username and password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with empty password"}
+{"level":"info","message":"Test Case Completed : Login with empty password Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid username"}
+{"level":"info","message":"Test Case Completed : Login with invalid username Status : passed"}
+{"level":"info","message":"Test Case Started : Login with invalid password"}
+{"level":"info","message":"Test Case Completed : Login with invalid password Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Sauce Labs Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to Sauce Demo application"}
+{"level":"info","message":"Executing Step : Verify User is logged in and navigated to Products page"}
+{"level":"info","message":"Test Case Completed : Verify Sauce Labs Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page."}
+{"level":"info","message":"Test Case Completed : Verify Elements Page. Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
