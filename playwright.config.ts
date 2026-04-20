@@ -2,11 +2,12 @@ import { PlaywrightTestConfig, devices } from '@playwright/test';
 import { testConfig } from './testConfig';
 import { OrtoniReportConfig } from 'ortoni-report';
 
-const ENV = process.env.npm_config_ENV;
+const ENV = process.env.npm_config_ENV || 'qa';
 
-if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
-  console.log(`Please provide a correct environment value after command like "--ENV=qa|dev|qaApi|devApi"`);
-  process.exit();
+if (![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
+  throw new Error(
+    `Please provide correct ENV value: --ENV=qa | dev | qaApi | devApi`
+  );
 }
 
 const reportConfig: OrtoniReportConfig = {
